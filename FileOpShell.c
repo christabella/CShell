@@ -360,9 +360,9 @@ int main() {
                 continue;
             }
             int c;
+            printf(MAKE_CYAN"");
             while ((c = getc(file)) != EOF)
                 putchar(c);
-            printf("\n");
             fclose(file);
             continue;
         }
